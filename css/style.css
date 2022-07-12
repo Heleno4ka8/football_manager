@@ -1,0 +1,127 @@
+body {
+    background-color: #8dc63f;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.ball {
+    display: flex;
+}
+
+.ball p {
+    color: #39930d;
+    font-size: 22px;
+    margin: 0;
+}
+
+.ball b {
+    font-size: 44px;
+    display: block;
+}
+
+.ball i {
+    font-size: 14px;
+    color: #5a5a5a;
+    display: inline-block;
+}
+
+.ball img {
+    margin: 0 35px;
+    transition: all 1s ease;
+}
+
+.ball img:hover {
+    padding-left: 300px;
+}
+
+.phone {
+    text-align: right;
+}
+
+.phone p {
+    font-size: 22px;
+    color: #39930d;
+    margin: 0;
+}
+
+.phone i {
+    font-size: 14px;
+    color: #5a5a5a;
+    display: block;
+    line-height: 2em;
+}
+
+.main {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 600px;
+}
+
+.text h1 {
+    font-size: 24px;
+    color: #39930d;
+}
+
+.text p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+
+.menu {
+    width: 300px;
+}
+
+.menu ul {
+    color: #39930d;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 0 20px;
+}
+
+.menu p {
+    background-color: #39930d;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px;
+}
+
+.menu a {
+    line-height: 30px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #39930d;
+    display: block;
+    transition: padding 1s ease;
+}
+
+.menu a:hover {
+    background-color: #39930d;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.copy {
+    background-color: #39930d;
+    color: #ffffff;
+    padding: 15px;
+    margin: 0 -15px;
+}
