@@ -1,10 +1,10 @@
-body {
+.g-body {
     background-color: #8dc63f;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
-.wrapper {
+.g-wrapper {
     background-color: white;
     max-width: 960px;
     margin: 0 auto;
@@ -12,102 +12,103 @@ body {
     box-sizing: border-box;
 }
 
-.header {
+.g-header {
     padding: 25px 0;
     display: flex;
     justify-content: space-between;
 }
-.ball {
+.b-ball {
     display: flex;
 }
 
-.ball p {
+.b-ball__football {
     color: #39930d;
     font-size: 22px;
     margin: 0;
 }
 
-.ball b {
+.b-ball__meneger {
     font-size: 44px;
     display: block;
 }
 
-.ball i {
+.b-ball__site {
     font-size: 14px;
     color: #5a5a5a;
     display: inline-block;
 }
 
-.ball img {
+.b-ball__picture {
     margin: 0 35px;
     transition: all 1s ease;
 }
 
-.ball img:hover {
+.b-ball__picture:hover {
     padding-left: 300px;
 }
-
-.phone {
+.b-phone {
     text-align: right;
 }
-.phone p {
+.b-phone__call {
     font-size: 22px;
     color: #39930d;
     margin: 0;
 }
-.phone a {
+.b-phone__let {
     text-decoration: none;
     color: #39930d;
     
 }
 
-.phone i {
+.b-phone__info {
     font-size: 14px;
     color: #5a5a5a;
     display: block;
     line-height: 2em;
 }
-
-.main {
+.png {
+    width: 100%;
+}
+.g-main {
     padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
 }
 
-.text {
+.b-text {
     max-width: 600px;
 }
 
-.text h1 {
+.b-text__h1 {
     font-size: 24px;
     color: #39930d;
 }
 
-.text p {
+.b-text__p {
     font-size: 14px;
     line-height: 21px;
     color: #343434;
 }
 
-.menu {
+.b-menu {
     width: 300px;
 }
 
-.menu ul {
+.b-menu__ul {
     color: #39930d;
     text-transform: uppercase;
     list-style: none;
     padding: 0 20px;
 }
 
-.menu p {
+.b-menu__p {
     background-color: #39930d;
     font-size: 18px;
     color: #fff;
     padding: 15px;
 }
 
-.menu a {
+.b-menu__a {
     line-height: 30px;
     font-size: 14px;
     text-decoration: underline;
@@ -115,15 +116,15 @@ body {
     display: block;
     transition: padding 1s ease;
 }
-
-.menu a:hover {
+ 
+.b-menu__a:hover {
     background-color: #39930d;
     color: white;
     text-decoration: none;
     padding-left: 20px;
 }
 
-.copy {
+.b-footer__copy {
     background-color: #39930d;
     color: #ffffff;
     padding: 15px;
