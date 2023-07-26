@@ -1,3 +1,7 @@
+html {
+    font-size: 0.9px;
+}
+
 .g-body {
     background-color: #8dc63f;
     font-family: Arial, sans-serif;
@@ -15,25 +19,32 @@
 .g-header {
     padding: 25px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    row-gap: 15px;
 }
+
 .b-ball {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
 }
 
 .b-ball__football {
     color: #39930d;
-    font-size: 22px;
+    font-size: 22rem;
     margin: 0;
 }
 
 .b-ball__meneger {
-    font-size: 44px;
+    font-size: 44rem;
     display: block;
 }
 
 .b-ball__site {
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
     display: inline-block;
 }
@@ -46,52 +57,57 @@
 .b-ball__picture:hover {
     padding-left: 300px;
 }
-.b-phone {
-    text-align: right;
-}
+
 .b-phone__call {
-    font-size: 22px;
+    font-size: 22rem;
     color: #39930d;
     margin: 0;
 }
+
 .b-phone__let {
     text-decoration: none;
     color: #39930d;
-    
+
 }
 
 .b-phone__info {
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
     display: block;
     line-height: 2em;
 }
+
 .png {
     width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    object-position: 79%;
+    vertical-align: bottom;
 }
+
 .g-main {
     padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 15px;
 }
 
-.b-text {
-    max-width: 600px;
-}
 
 .b-text__h1 {
-    font-size: 24px;
+    font-size: 24rem;
     color: #39930d;
 }
 
 .b-text__p {
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 14rem;
+    line-height: 1.5em;
     color: #343434;
 }
 
 .b-menu {
-    width: 300px;
+    min-width: 290px;
+    width: 100%;
 }
 
 .b-menu__ul {
@@ -109,14 +125,14 @@
 }
 
 .b-menu__a {
-    line-height: 30px;
-    font-size: 14px;
+    line-height: 2.1em;
+    font-size: 14rem;
     text-decoration: underline;
     color: #39930d;
     display: block;
     transition: padding 1s ease;
 }
- 
+
 .b-menu__a:hover {
     background-color: #39930d;
     color: white;
@@ -125,8 +141,30 @@
 }
 
 .b-footer__copy {
+    font-size: 14rem;
     background-color: #39930d;
     color: #ffffff;
     padding: 15px;
     margin: 0 -15px;
+}
+
+@media screen and (min-width: 583px) {
+    .g-header {
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .b-phone {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 749px) {
+    html {
+        font-size: 1px;
+    }
+
+    .g-main {
+        flex-wrap: nowrap;
+    }
 }
